@@ -1,0 +1,130 @@
+.hero-container {
+  display: flex;
+  align-items: stretch;
+  gap: 1rem;
+  width: 100%;
+  min-height: 350px;
+  box-sizing: border-box;
+}
+
+.hero-left, 
+.hero-right {
+  flex: 1;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.stats-section {
+  display: flex;
+  flex-direction: column;
+  gap: 1.8rem;
+}
+
+.stat-card {
+  border-radius: 10px;
+  padding: 1rem;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.stat-card.large {
+  min-height: 70px;
+}
+
+.stat-card.small {
+  flex: 1;
+  text-align: center;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.stat-row {
+  display: flex;
+  gap: 0.6rem;
+}
+
+.stat-info h3 {
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.stat-period {
+  font-size: 0.7rem;
+  opacity: 0.9;
+}
+
+.stat-value {
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-top: 0.3rem;
+}
+
+.stat-value-small {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+/* Color themes */
+.gold {
+  background: linear-gradient(135deg, #DAA520, #B8860B);
+}
+.brown {
+  background: linear-gradient(135deg, #CD853F, #A0522D);
+}
+.green {
+  background: linear-gradient(135deg, #32CD32, #228B22);
+}
+.blue {
+  background: linear-gradient(135deg, #4682B4, #2F4F4F);
+}
+.purple {
+  background: linear-gradient(135deg, #9370DB, #6A5ACD);
+}
+
+/* Icons */
+.stat-icon {
+  font-size: 2rem;
+}
+.stat-icon-small {
+  font-size: 1.3rem;
+}
+
+/* Right Image */
+.hero-main-img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.25);
+}
+
+/* Bottom image */
+.hero-bottom {
+  width: 100%;
+  margin-top: 1rem;
+}
+.hero-bottom-img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .hero-container {
+    flex-direction: column;
+  }
+  .stat-row {
+    flex-direction: column;
+  }
+}
+.Links {
+  text-decoration: none !important;
+}

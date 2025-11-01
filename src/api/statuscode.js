@@ -1,0 +1,22 @@
+// HTTP Status Codes
+export const STATUS_CODES = {
+  OK: 200,
+  NOT_HERE: 260,
+  CREATED: 201,
+  ACCEPTED: 202,
+  BAD_REQUEST: 400,
+  UNAUTHORIZED: 401,
+  FORBIDDEN: 403,
+  NOT_FOUND: 404,
+  INTERNAL_SERVER_ERROR: 500,
+};
+
+// Application specific status codes
+export const APP_STATUS_CODES = {
+  SUCCESS: 'ESS-000',
+  BAD_REQUEST: 'ESS-400',
+  UNAUTHORIZED: 'ESS-401',
+  FORBIDDEN: 'ESS-403',
+  NOT_FOUND: 'ESS-404',
+  SERVER_ERROR: 'ESS-500',
+};

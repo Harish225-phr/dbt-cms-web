@@ -1,0 +1,158 @@
+.schemes-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  min-height: 80vh;
+}
+
+.schemes-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-align: center;
+  color: #2c3e50;
+}
+
+.schemes-content {
+  column-count: 2;
+  column-gap: 10px;
+  width: 100%;
+}
+
+.department-section {
+  background-color: white;
+  border-radius: 4px;
+  padding: 15px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  border-left: 4px solid #262B6C;
+  break-inside: avoid;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.department-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #2c3e50;
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+  border-bottom: 2px solid #ecf0f1;
+}
+
+.schemes-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.scheme-item {
+  display: flex;
+  align-items: flex-start;
+  padding: 4px 0;
+  border-bottom: 1px solid #f1f2f6;
+}
+
+.scheme-item:last-child {
+  border-bottom: none;
+}
+
+.scheme-number {
+  font-weight: 600;
+  color: #7f8c8d;
+  margin-right: 8px;
+  min-width: 25px;
+  flex-shrink: 0;
+}
+
+.scheme-link {
+  background: none;
+  border: none;
+  color: #3498db;
+  text-decoration: none;
+  font-size: 1rem;
+  line-height: 1.4;
+  transition: color 0.3s ease;
+  cursor: pointer;
+  text-align: left;
+  padding: 0;
+  font-family: inherit;
+}
+
+.scheme-link:hover {
+  color: #2980b9;
+  text-decoration: underline;
+}
+
+.scheme-name {
+  color: #2c3e50;
+  font-size: 1rem;
+  line-height: 1.4;
+}
+
+.scheme-count {
+  font-size: 0.9rem;
+  color: #7f8c8d;
+  font-weight: normal;
+  margin-left: 10px;
+}
+
+.no-schemes {
+  color: #7f8c8d;
+  font-style: italic;
+  margin: 10px 0;
+}
+
+.loading {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #7f8c8d;
+  padding: 60px 20px;
+}
+
+.error {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #e74c3c;
+  padding: 60px 20px;
+  background-color: #fdf2f2;
+  border: 1px solid #fecaca;
+  border-radius: 8px;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .schemes-content {
+    column-count: 1;
+  }
+  
+  .schemes-container {
+    padding: 20px 15px;
+  }
+  
+  .schemes-title {
+    font-size: 2rem;
+    margin-bottom: 30px;
+  }
+  
+  .department-section {
+    padding: 20px;
+  }
+  
+  .department-title {
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .schemes-title {
+    font-size: 1.8rem;
+  }
+  
+  .department-title {
+    font-size: 1.2rem;
+  }
+  
+  .scheme-link,
+  .scheme-name {
+    font-size: 0.95rem;
+  }
+}

@@ -1,0 +1,41 @@
+.rich-text-container table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .rich-text-container table, 
+  .rich-text-container th, 
+  .rich-text-container td {
+    border: 1px solid #ccc;
+  }
+  
+  .rich-text-container th, 
+  .rich-text-container td {
+    padding: 10px;
+    font-size: 13px;
+  }
+  
+  .rich-text-container th {
+    background-color: #f5f5f5;
+    font-weight: bold;
+  }
+
+.short-key{
+  display: none !important;
+}
+second-panel{
+  background-color: #262B6C ;
+}
+inner-short-key{
+  background-color: #262B6C;
+}
+
+.uw-widget-custom-trigger {
+ background-color: #262B6C !important;
+    color: white !important;
+
+}
+.relative.second-panel {
+ background-color: #262B6C !important;
+
+}

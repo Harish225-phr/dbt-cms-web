@@ -1,0 +1,119 @@
+.dbt-container {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Header Section */
+.dbt-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.dbt-header-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.dbt-flag {
+  width: 24px;
+  height: 16px;
+}
+
+.dbt-title-small {
+  font-weight: 600;
+}
+
+.dbt-subtitle {
+  font-size: 12px;
+  color: #666;
+}
+
+.dbt-skip {
+  color: #004aad;
+}
+
+.dbt-font-toggle button {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+  margin-left: 5px;
+  background-color: white;
+}
+
+.dbt-font-toggle .active {
+  background-color: black;
+  color: white;
+}
+
+/* Title Section */
+.dbt-title-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.dbt-title-left {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.dbt-logo,
+.dbt-emblem {
+  width: 70px;
+  height: 70px;
+}
+
+.dbt-main-title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.dbt-govt-name {
+  color: #555;
+}
+
+/* Navigation Bar */
+.dbt-nav {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  font-weight: 600;
+}
+
+.dbt-nav-links span {
+  margin-right: 20px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.dbt-nav-links .active {
+  border-bottom: 2px solid white;
+}
+
+.dbt-login {
+  cursor: pointer;
+}
+
+
+
+.Links {
+  text-decoration: none !important;
+  font-weight: normal !important;
+  color: inherit; /* keeps the same color as parent */
+}
+
+.Links:hover {
+  text-decoration: none !important;
+}
+
+/* In case active makes it bold */
+.active .Links {
+  font-weight: normal !important;
+}

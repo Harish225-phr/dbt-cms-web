@@ -1,0 +1,24 @@
+.dbt-footer {
+  background-color: #e3dddd;
+  text-align: center;
+  padding: 20px 10px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #1e1e1e;
+}
+
+.dbt-footer-links {
+  margin-bottom: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.dbt-footer-links span {
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.dbt-footer-text {
+  color: #333;
+}
